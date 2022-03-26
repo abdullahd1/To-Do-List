@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    width: 700px;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+#add-task-button {
+    background-color: blueviolet;
+    color: white;
+}
+
+#input-task {
+    border: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+#task-list {
+    list-style: none;
+}
+
+.task {
+    padding: 10px;
+}
+
+/*.delete-btn::before {*/
+/*    !*content: "\f00d";*!*/
+/*    color: white;*/
+/*    content: "X";*/
+/*}*/
+.delete-btn {
+    /*border-radius: 1px;*/
+    /*background-color: red;*/
+}
