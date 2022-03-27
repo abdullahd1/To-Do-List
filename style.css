@@ -35,3 +35,7 @@
     /*border-radius: 1px;*/
     /*background-color: red;*/
 }
+
+input[type=checkbox]:checked + span {
+    text-decoration: line-through;
+}
